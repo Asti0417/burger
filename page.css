@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@500&family=Cormorant+SC:wght@500&family=Noto+Serif+TC:wght@600;700&display=swap');
+
+
+.wrapper{
+    min-height: 100%;
+}
+
+body{
+    height: 100%;
+    background-image: url(./img/Bg3n.jpg);
+}
+
+nav{
+    font-family: 'Noto Serif TC', serif
+}
+
+/* header  */
+#logo{
+    display: flex;
+    justify-content: center;
+    background-color: #93c95da4;
+    border-bottom:5px dashed #fdfdf4;
+    padding: 15px;
+}
+#logo:hover{
+    background-color: #b6d572b4;
+}
+
+/* content */
+content h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Noto Serif TC', serif
+}
+#burger,#snack,#drink{
+    border: 5px solid rgba(237, 231, 231, 0.86);
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    font-family: 'Noto Serif TC', serif
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+}
+.card-body .btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/* footer */
+
+#footer {
+    display: flex;
+    flex-wrap:wrap;
+    position:flex;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Noto Serif TC', serif
+}
+
+.fa-facebook{
+    color: rgb(88, 88, 186);
+}
+.fa-facebook:hover{
+    opacity: 0.6;
+}
+.fa-instagram{
+    color: rgb(217, 99, 119);
+}
+.fa-instagram:hover{
+    opacity: 0.6;
+}
+.fa-youtube{
+    color: rgba(222, 50, 50, 0.868);
+}
+.fa-youtube:hover{
+    opacity: 0.6;
+}
+.icon i{
+    font-size: 25px;
+    padding-right: 5px;
+}
+

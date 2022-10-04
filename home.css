@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@500&family=Cormorant+SC:wght@500&family=Noto+Serif+TC:wght@600;700&display=swap');
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    height: 960px;
+}
+
+nav {
+    font-family: 'Noto Serif TC', serif;
+}
+
+body {
+    background-image: url(./img/bg3.jpg);
+    background-position-y: -50px;
+    background-size: 120em;
+}
+
+/* header */
+
+#logo {
+    display: flex;
+    justify-content: center;
+    background-color: #93c95da4;
+    border-bottom: 5px dashed #fdfdf4;
+    padding: 15px;
+}
+
+#logo:hover {
+    background-color: #b6d572b4;
+}
+
+/* content */
+content {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    
+}
+
+.item h1 {
+    color: #a15536;
+    font-family: 'Noto Serif TC', serif;
+    margin-top: 20px;
+}
+
+.item i {
+    font-size: 25px;
+    text-decoration: none;
+    margin-top:30px;
+}
+
+#show1,
+#show2,
+#show3 {
+    border: none;
+    background: none;
+    color: #81ad54;
+}
+
+#show1:hover,
+#show2:hover,
+#show3:hover {
+    color: #d28220;
+}
+
+#close1,
+#close2,
+#close3 {
+    color: #fdfdf4;
+    border: 3px solid #b36e1aef;
+    background-color: #d28220;
+    border-radius: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-family: 'Cinzel', serif;
+}
+
+#infoModal01,
+#infoModal02,
+#infoModal03 {
+    border-radius: 50px;
+}
+
+#infoModal01 i {
+    color: #8eb567;
+}
+
+dialog {
+    border: 4px double #d28220;
+    background-color: #fdfdf4;
+    width: 400px;
+}
+
+dialog p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Serif TC', serif;
+}
+
+dialog ul {
+    margin: 0px 20px 10px 40px;
+    display: block;
+
+
+    font-family: 'Noto Serif TC', serif;
+}
+
+dialog ul i {
+    color: #e4b118c4;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* dialog 的動畫效果 */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* footer */
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: flex;
+    width: 100%;
+    padding-left: 20px;
+    bottom: 1;
+    font-size: 18px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.fa-facebook {
+    color: rgb(88, 88, 186);
+}
+
+.fa-facebook:hover {
+    opacity: 0.6;
+}
+
+.fa-instagram {
+    color: rgb(217, 99, 119);
+}
+
+.fa-instagram:hover {
+    opacity: 0.6;
+}
+
+.fa-youtube {
+    color: rgba(222, 50, 50, 0.868);
+}
+
+.fa-youtube:hover {
+    opacity: 0.6;
+}
+
+.icon i {
+    font-size: 25px;
+    padding-right: 5px;
+}
+

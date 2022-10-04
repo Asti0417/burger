@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./home.css">
+  <link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.css">
+  <script src="https://kit.fontawesome.com/6c5e9750c4.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="./img/title.png" style="width: 100px;">
+  <title>吃堡 Hamburger</title>
+</head>
+
+<body>
+<div class="wrapper">
+  <!--nav -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="home.html"> <img src="./img/logo.PNG" alt="" width="40px"> 關於吃堡</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fa-solid fa-burger"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            吃堡堡
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="page.html">• 起司牛肉堡</a>
+            <a class="dropdown-item" href="page.html">• 塔塔炸雞堡</a>
+            <a class="dropdown-item" href="page.html">• 黃金炸蝦堡</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            點心吃堡
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="page.html">• 薯條</a>
+            <a class="dropdown-item" href="page.html">• 雞塊</a>
+            <a class="dropdown-item" href="page.html">• 迷你小薯球</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            飲料吃堡
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="page.html">• 綠茶</a>
+            <a class="dropdown-item" href="page.html">• 雪碧</a>
+            <a class="dropdown-item" href="page.html">• 黑松沙士</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- header -->
+  <header>
+    <div id="logo">
+      <a href="home.html"><img src="./img/biglogo.png" alt="" width="350px"></a> 
+    </div>
+  </header>
+  <!-- content -->
+  <content>
+    <div class="item">
+      <h1><i class="fa-solid fa-burger"></i> <b>品牌理念</b></h1>
+      <button id="show1">
+        <i class="fa-solid fa-circle-arrow-down"></i>
+      </button>
+      <dialog id="infoModal01" class="animate">
+        <br>
+        <p>☼ 讓愛吃堡的人都吃堡吃到飽 ☼ <br></p>
+        <p><i class="fa-solid fa-burger"></i></i><i class="fa-solid fa-shrimp"></i><i class="fa-solid fa-mug-saucer"></i><i class="fa-solid fa-bacon"></i><i class="fa-solid fa-cheese"></i></p>
+        <button id="close1">close</button>
+      </dialog>
+    </div>
+    <div class="item">
+    <h1><i class="fa-solid fa-burger"></i> <b>分店位置</b></h1>
+      <button id="show2">
+        <i class="fa-solid fa-circle-arrow-down"></i>
+      </button>
+      <dialog id="infoModal02" class="animate">
+        <br>
+        <p><img src="./img/分店資訊-台灣圖-01 .png" alt="" width="100%"></p>
+        <button id="close2" >close</button>
+      </dialog>
+    </div>
+    <div class="item">
+      <h1><i class="fa-solid fa-burger"></i> <b> 榮譽分享</b></h1>
+      <button id="show3">
+        <i class="fa-solid fa-circle-arrow-down"></i>
+      </button>
+      <dialog id="infoModal03" class="animate"><br>
+        <ul>
+          <ol><i class="fa-solid fa-medal"></i> 超好吃漢堡獎 </ol>
+          <ol><i class="fa-solid fa-medal"></i> 最佳吃飽飽獎</ol> 
+          <ol><i class="fa-solid fa-medal"></i> 生菜最多漢堡獎</ol>
+        </ul>
+        <button id="close3">close</button>
+      </dialog>
+    </div>
+  </content>
+</div>
+</body>
+  <!-- footer -->
+  <footer>
+    <div id="footer">
+      <br><br>
+      <div class="icon">
+        <p><i class="fa-brands fa-facebook"></i>  <i class="fa-brands fa-instagram"></i>  <i class="fa-brands fa-youtube"></i></p>
+        <div><p>總店：台中市</p>
+        <p>客服專線：04-26993333</p></div>
+      </div>
+    </div>
+  </footer>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="./home.js"></script>
+</html>
