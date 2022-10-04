@@ -107,15 +107,15 @@ dialog p {
     font-family: 'Noto Serif TC', serif;
 }
 
-dialog ul {
-    margin: 0px 20px 10px 40px;
-    display: block;
-
-
+dialog ol {
+    padding: 0;
+    padding-bottom: 10px;
+    width: 280px;
+    text-align: center;
     font-family: 'Noto Serif TC', serif;
 }
 
-dialog ul i {
+dialog ol i {
     color: #e4b118c4;
 }
 
